@@ -1,0 +1,74 @@
+.main-product{
+    transform: translateY(6rem);
+    font-family: 'Poppins',sans-serif;
+}
+
+ .main-product{
+    display: inline-flex;
+    padding-top: 2rem;
+    margin-left: 3rem;
+}
+
+.main-product .main{
+    width: 17rem;
+    /* display: inline-flex; */
+    margin-left: 2rem;
+    background-color: #fff;
+    box-shadow: -8px -8px  15px rgba(255, 255, 255, 0.1),
+    5px  5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+}
+
+
+.main-product .main img{
+    width: 17rem;
+    height: 15rem;
+}
+
+.main-product .main .namP{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-product .main .namP .name{
+    margin-left: 1rem;
+}
+
+.main-product .main .namP  .price{
+    margin-right: 1rem;
+}
+
+.main-product .main .desc p{
+  text-align: center;
+  margin-top: -0.5rem ;
+}
+
+.main-product .main .credentials{
+    display: flex;
+   justify-content: space-around;
+}
+
+.main-product .main .credentials button{
+    display: inline-flex;
+    gap: 5px;
+    padding: 0.3rem 0.5rem;
+    transform: translate(5px, -5px);
+    font-size: 0.8rem;
+    font-weight: bold;
+    border: 1px solid gray;
+   background: #fff;
+   border-radius: 0.7rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.main-product .mian .credentials button .icon{
+    font-size: 10rem;
+}
+
+.main-product .main .credentials button:hover{
+    background:rgb(155, 152, 15);
+    color: #fff;
+}
+
+

@@ -1,0 +1,124 @@
+.all-header{
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: hsl(0, 0%, 95%);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: space-between;
+    font-family: 'poppins',sans-serif;
+}
+
+.all-header .logo{
+    margin-left: 2rem;
+}
+
+.all-header .logo h3{
+    font-size: 1.7rem;
+    background: linear-gradient(to right,rgb(221, 218, 13),  rgb(34, 34, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
+.all-header .links{
+    margin: 0 2rem  0 2rem ;
+    display: flex;
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    /* justify-content: space-between; */
+}
+
+.all-header .links p{
+    cursor: pointer;
+}
+
+.all-header .options{
+    display: flex;
+    gap: 1.2rem;
+    margin-right: 4rem;
+    margin-top: 1.1rem ;
+}
+
+.all-header .options button{
+    position: relative;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
+
+.all-header .options button:hover{
+    background:rgb(155, 152, 15);
+    color: #fff;
+}
+
+.all-header .options button .num{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin-left: 5px;
+    transform: translateX(2rem);
+    transform: translateY(-2.5rem);
+    font-size: 1rem;
+}
+
+.all-header .options button .num span{
+    background-color: red;
+    padding: 0 2px;
+    border-radius: 2rem;
+    margin-left: 0.8rem;
+}
+
+/* responsive design */
+
+@media screen and (max-width: 610px) {
+    .all-header .logo{
+        margin-left: 1rem;
+    }
+    .all-header .logo h3{
+        font-size: 1.2rem;
+    }
+    .all-header .links{
+        font-size: 1rem;
+    }
+    .all-header .options button{
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-top: -0.5rem;
+        padding: 3px 2px;
+    }
+}
+
+@media screen and (max-width: 464px){
+    .all-header .options{
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .all-header .options button{
+        width: 2rem;
+        height: 2rem;
+        font-size: 1.5rem;
+        margin-top: -0.5rem;
+        padding: 3px 2px;
+    }
+    
+ .all-header .options button .num{
+    font-size: 0.7rem;
+    /* transform: translateY(0.1px); */
+}
+
+}
+
+/* End the responsive design */

@@ -1,0 +1,81 @@
+.all-siginIn{
+    transform: translateY(8rem);
+    display: flex;
+    justify-content: center;
+    /* min-height: 100vh; */
+    font-family: 'poppins',sans-serif;
+    /* background-color: red; */
+}
+
+.all-siginIn .all-section{
+    display: flex;
+    box-shadow:  -8px -8px  15px rgba(255, 255, 255, 0.1),
+    5px  5px 15px rgba(0, 0, 0, 0.2);;
+}
+
+.all-siginIn .left-section{
+    background: linear-gradient(to left,rgb(221, 218, 13),rgb(34, 34, 0));
+    color: #fff;
+    padding: 5rem 2rem;
+}
+
+.left-section .credentials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.left-section .credentials a:hover{
+    text-decoration: underline;
+}
+
+.all-siginIn .right-section{
+    padding: 5rem 2rem;
+    background-color: #fff;
+}
+
+.right-section .main h4{
+    padding-bottom: 1rem;
+    margin-top: -4rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    background: linear-gradient(to left,rgb(221, 218, 13),rgb(34, 34, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.right-section .main input{
+    border: none;
+    outline: none;
+    background-color: rgb(197, 196, 196);
+    padding: 1rem 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.right-section .main input:focus{
+    border-bottom: 2px solid rgb(221, 218, 13);
+}
+
+.right-section .main input::placeholder{
+   font-size: 1rem;
+   color: rgb(0, 0, 5);
+}
+
+.right-section .main  button{
+   transform: translateX(5rem);
+   margin-top: 5px;
+   cursor: pointer;
+   background: #fff;
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.right-section .main button:hover{
+    background: linear-gradient(to left,rgb(221, 218, 13),rgb(34, 34, 0));
+    color: #fff;
+}

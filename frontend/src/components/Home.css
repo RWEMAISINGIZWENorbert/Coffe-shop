@@ -1,0 +1,58 @@
+.Home{
+    transform: translateY(6rem);
+    /* justify-content: space-between; */
+    display: flex;
+    /* flex-direction: column; */
+    font-family: 'poppins',sans-serif;
+}
+
+.Home .main,
+.Home .btns{
+    transform: translateX(5px);
+}
+
+.Home .main .head h1{
+    font-size: 4rem;
+    font-weight: bold;
+    background: linear-gradient(rgb(221, 218, 13),rgb(34, 34, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+.Home .main .body{
+    width: 30rem;
+    /* height: 5rem; */
+}
+
+.Home .btns{
+    display: flex;
+    gap: 2rem;
+    /* justify-content: space-between; */
+}
+
+.Home .btns  button{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid gray;
+   background: #fff;
+   border-radius: 0.7rem;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.Home .btns button:hover{
+    background:rgb(155, 152, 15);
+    color: #fff;
+}
+
+.Home .right-section img{
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    margin: 2rem 7rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* border-radius: 1rem; */
+}
