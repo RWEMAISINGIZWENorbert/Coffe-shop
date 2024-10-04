@@ -43,7 +43,7 @@
 .product-orders table tr td,
 .product-orders table tr th{
     padding: 1rem 4rem;
-    border: 1px solid gray;
+    border: 1px solid gray 0;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;

@@ -3,9 +3,11 @@ const mongoose  = require('mongoose');
 const app = express();
 const dotenv = require('dotenv');
 const bcrypt = require('bcrypt');
+const cors = require('cors');
 dotenv.config();
 const port = process.env.PORT;
 // const customer = require('./models/customerModel');
+app.use(cors())
 const customersRoutes = require('./routes/customersRoutes');
 const productRoutes = require('./routes/productRoutes');
 const ordersRoutes = require('./routes/OrdersRoutes')

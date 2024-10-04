@@ -1,0 +1,72 @@
+.left-section{
+    z-index: -1;
+    transform: translateY(6rem);
+    background-color: gray;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    top: -0.5rem;
+    position: fixed;    
+    left: 0;
+    background-color: #fff;
+    width: 10.8rem;
+    height: 100vh;
+    bottom: 0;
+    box-shadow: 0px 0px 9px hsl(0, 0%, 60%);
+    align-items: center;
+    font-family: 'poppins',sans-serif;
+}
+
+
+.left-section h3{
+    font-size: 1.4rem;
+    cursor: pointer;
+    background: linear-gradient(rgb(221, 218, 13),rgb(34, 34, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left-section .item{
+    width: 10rem;
+    height: 2.2rem;
+    margin: 2rem;
+    border-radius: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+
+.left-section .item.sign-out{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   cursor: pointer;
+}
+
+.left-section .item.sign-out:hover{
+    color: rgb(155, 152, 15);
+}
+
+.left-section .item.sign-out .icon{
+    transform: translateY(0.8rem);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.left-section .item:hover{
+    background: rgb(199, 198, 198);
+}
+
+.left-section .item h4{
+    gap: 3rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+    transform: translateY(-1rem);
+}
+
+.left-section .item h4:hover{
+    color: rgb(155, 152, 15);
+}

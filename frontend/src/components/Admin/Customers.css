@@ -1,0 +1,50 @@
+.customers{
+    transform: translateY(6rem);
+    margin-left: 15rem;
+    font-family: 'poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 9px hsl(0, 0%, 60%);
+    width: 40rem;
+    border-radius: 1rem;
+}
+
+.customers .head {
+    display: flex;
+    justify-content: center;
+}
+
+.customers .head h4{
+    width: 10rem;
+    font-size: 1.9rem;
+    text-align: center;
+    background: linear-gradient(rgb(221, 218, 13),rgb(34, 34, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    border-bottom: 2px dotted black;
+}
+
+.customers .content{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.customers .content table{
+    border: 1px solid gray;
+}
+
+.customers .content table tr{
+    padding: 1rem;
+}
+
+.customers .content table tr th,
+.customers .content table tr td{
+    padding: 0.2rem 2rem;
+    border: 1px solid gray 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #fff;
+}
